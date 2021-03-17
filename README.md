@@ -15,6 +15,9 @@ The purpose of this challenge is to predict the sales price for each house. For 
   - Creative feature engineering 
   - Advanced regression techniques like random forest and gradient boosting
 
+### Metric
+- Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. (Taking  logs means that errors in predicting expensive houses and cheap houses will affect the result equally.)
+
 ### Acknowledgments
 
 [The Ames Housing dataset](http://www.amstat.org/publications/jse/v19n3/decock.pdf) was compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. 
